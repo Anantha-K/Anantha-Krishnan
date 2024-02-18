@@ -3,6 +3,9 @@ import Image from "@/node_modules/next/image";
 import React from "react";
 import Typewriter from "typewriter-effect";
 import img from './assets/Image.png'
+import { FaInstagram,FaGithub,FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 const page = () => {
   return (
     <>
@@ -32,8 +35,18 @@ const page = () => {
 
 
 
-        <footer className="bg-red-500 h-48 w-full text-white flex justify-center">
-            <h1>Get in touch..</h1>
+        <footer className="bg-red-500 h-48 w-full text-white items-center flex flex-col justify-between bottom-0">
+            <h1>Get in touch</h1>
+            <div className="flex space-x-10 text-4xl pb-8">
+
+            <FaInstagram  className='hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300'/>
+            <FaGithub className='hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300' />
+
+            <FaXTwitter className='hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300' />
+            <FaLinkedin className='hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300' />
+            </div>
+
+
         </footer>
       </div>
     </>
