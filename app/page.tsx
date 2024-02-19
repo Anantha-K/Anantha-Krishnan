@@ -40,6 +40,11 @@ const page = () => {
 
         </div>
 
+
+                  {/* Tech Stack */}
+        <div className="w-full flex bg-purple-300">
+hh
+        </div>
         {/* Projects */}
         <div className="bg-green-400 w-full flex flex-col items-center ">
           <h1 className="text-4xl">Projects</h1>
