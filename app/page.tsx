@@ -34,7 +34,7 @@ const page = () => {
           <div className="w-[80%] flex flex-col items-center justify-around text-white h-full" >
 
           <h1 className="text-5xl">About<span className="text-red-500">.</span></h1>
-          <p>I'm a 21-year-old engineering student passionate about the power of technology.  As a self-taught full-stack developer, I love building functional and sleek web and mobile applications. I'm always exploring new tech frontiers, especially in the world of artificial intelligence.</p>
+          <p className="text-xl">I'm a 21-year-old engineering student passionate about the power of technology.  As a self-taught full-stack developer, I love building functional and sleek web and mobile applications. I'm always exploring new tech frontiers, especially in the world of artificial intelligence.</p>
           </div>
           
 
