@@ -30,10 +30,10 @@ const page = () => {
         </div>
 
         {/* About */}
-        <div className="bg-yellow-400 w-full items-center justify-center flex flex-col">
-          <div className="w-[80%] flex flex-col items-center " >
+        <div className=" w-full items-center justify-center flex h-96 bg-black flex-col">
+          <div className="w-[80%] flex flex-col items-center justify-around text-white h-full" >
 
-          <h1 className="text-3xl">About<span className="text-red-500">.</span></h1>
+          <h1 className="text-5xl">About<span className="text-red-500">.</span></h1>
           <p>I'm a 21-year-old engineering student passionate about the power of technology.  As a self-taught full-stack developer, I love building functional and sleek web and mobile applications. I'm always exploring new tech frontiers, especially in the world of artificial intelligence.</p>
           </div>
           
@@ -42,12 +42,12 @@ const page = () => {
 
 
                   {/* Tech Stack */}
-        <div className="w-full flex bg-purple-300">
-hh
+        <div className="w-full flex bg-purple-300 justify-center text-3xl items-center">
+                  <h1>Tech Stack<span>.</span></h1>
         </div>
         {/* Projects */}
         <div className="bg-green-400 w-full flex flex-col items-center ">
-          <h1 className="text-4xl">Projects</h1>
+          <h1 className="text-4xl">Projects<span>.</span></h1>
           {/* cards */}
           <div>hi</div>
         </div>
