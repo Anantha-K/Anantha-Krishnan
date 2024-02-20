@@ -69,7 +69,7 @@ const page = () => {
             <FaXTwitter className="hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300" />
             <FaLinkedin className="hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300" />
           </div>
-          <p className="text-sm">Anantha Krishnan</p>
+          {/* <p className="text-sm">Anantha Krishnan</p> */}
         </footer>
       </div>
     </>
