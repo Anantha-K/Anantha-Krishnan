@@ -62,7 +62,9 @@ const page = () => {
 
           <div className="flex space-x-10 text-4xl mb-4">
             <FaInstagram className="hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300 " />
-            <FaGithub className="hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300" />
+            <Link href="https://github.com/Anantha-K" target="_blank">
+              <FaGithub className="hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300" />
+              </Link>
 
             <FaXTwitter className="hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300" />
             <FaLinkedin className="hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300" />
