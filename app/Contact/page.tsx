@@ -1,14 +1,14 @@
 import React from 'react'
 
 const page = () => {
-  const handleSubmit=()=>{
+  // const handleSubmit=()=>{
     
-  }
+  // }
   return (
-    <div className='bg-black w-full min-h-screen'>
-      <h1>Contact Me</h1>
+    <div className='bg-black  w-full text-white flex flex-col items-center min-h-screen'>
+      <h1 className='text-8xl mt-32'>Let's Work Together</h1>
 
-      <button onClick={handleSubmit}>Send</button>
+      <button >Send</button>
 
     </div>
   )
