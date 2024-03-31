@@ -15,7 +15,7 @@ const page = () => {
           <div className="flex flex-col">
             {/* <Image src={img} width={500} height={500} className='z-0 translate-y-32'></Image> */}
             <div className="flex-col items-center -translate-y-10 z-10 justify-center">
-              <h1 className="text-8xl">Anantha Krishnan</h1>
+              <h1 className="text-7xl md:text-8xl">Anantha Krishnan</h1>
               <div className="flex justify-center text-3xl my-5">
                 <Typewriter
                   options={{
@@ -60,14 +60,14 @@ const page = () => {
             </svg>
           </Link>
 
-          <div className="flex space-x-10 text-4xl mb-4">
-            <FaInstagram className="hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300 " />
+          <div className="flex space-x-10 text-4xl mb-6">
+            <FaInstagram className="hover:cursor-pointer  transition transform  duration-300 " />
             <Link href="https://github.com/Anantha-K" target="_blank">
-              <FaGithub className="hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300" />
+              <FaGithub className="hover:cursor-pointer  transition transform  duration-300" />
               </Link>
 
-            <FaXTwitter className="hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300" />
-            <FaLinkedin className="hover:cursor-pointer hover:-translate-y-1 transition transform  duration-300" />
+            <FaXTwitter className="hover:cursor-pointer  transition transform  duration-300" />
+            <FaLinkedin className="hover:cursor-pointer  transition transform  duration-300" />
           </div>
           {/* <p className="text-sm">Anantha Krishnan</p> */}
         </footer>
